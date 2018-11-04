@@ -29,5 +29,7 @@ for i = 1:lin % Laço de repetição para percorrer as linhas da matriz
     end
 end
 
+G = G';
+
 disp('Resposta');
 disp(G)
